@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* Variables */
+:root{
+    --orange-color:#ff4b24;
+    --yellow-color:#ffc300;
+    --violet-color:#900C3E;
+    --gray-color:gray;
+/* Espaciado */
+    --space:10px;
+    /* Tipografia */
+    --normal:12px;
+    --grande:17px;
+    /* Box shadow */
+    --box: 0 0 1px #c1bcbc;
+}
+/* VAriables */
+
+html,body{
+    padding: 0px;
+    margin:0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--yellow-color);
+    padding: var(--space);
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 17px;
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:var(--gray-color);
+}
+
+/* -------------------------Main Section--------------------------------- */
+
+.main_section{
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/book.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center top;
+    padding:20%;
+    display:flex;
+    
+}
+.product{
+    padding:var(--space);
+    margin-top: -100px;
+    margin-left: 80px;
+    
+}
+.product .content{
+    align-items: center;
+    background-color:var(--yellow-color);
+    padding: 15px;
+    box-shadow: var(--box)
+}
+.img_content {
+    text-align: center;
+}
+.main_button{
+    background-color: var(--orange-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--grande);
+    color: white;
+    border:0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.main_button:hover{
+    background-color: var(--violet-color);
+}
+
+.qualities{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    padding: var(--space);
+    font-size: 20px;
+}
+
+.quality{
+    padding: 10px;
+}
+.persons{
+    background-color: var(--yellow-color);
+    height: 50vh;;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.person{
+    display: flex;
+    margin-top: 5%;
+    margin-left: -60px;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.img_mediana{
+    margin: 0;
+    padding: 0px;
+    widows: 150px; height: 150px;
+    border-radius: 25px;
+}
+.footer{
+    background-color: var(--orange-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
