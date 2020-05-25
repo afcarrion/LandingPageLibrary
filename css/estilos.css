@@ -104,10 +104,10 @@ nav li a:hover{
 }
 .persons{
     background-color: var(--yellow-color);
-    height: 50vh;;
     margin-top: 5%;
     display: flex;
     justify-content: space-around;
+    height: 50vh;
 }
 
 .person{
@@ -116,7 +116,7 @@ nav li a:hover{
     margin-left: -60px;
     padding: 0;
     width: 50px;
-    height: 50px;
+   
 }
 
 .img_mediana{
@@ -129,5 +129,5 @@ nav li a:hover{
     background-color: var(--orange-color);
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px;
 }

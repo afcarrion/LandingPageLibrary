@@ -1,0 +1,37 @@
+@media (max-width: 600px){
+    p{
+        margin: 0px;
+        padding: 5px;;
+    }
+    .products{
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+    }
+
+    .qualities, .footer{
+        display: inherit;
+        height: auto; 
+    }
+
+    .persons{
+        display: inherit;
+        height: auto; 
+        align-content: center;
+    }
+    .person{
+        display: inherit;
+        height: auto;
+        margin-left: 0;
+        width: auto;
+    }
+    .person_img_content{
+        text-align: center;
+    }
+    .footer{
+        margin-top: 0px;
+        padding: 10px;
+    }
+}
